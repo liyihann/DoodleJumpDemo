@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./image/favicon.ico" />
+    <title>Doodle Jump Demo</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <canvas id="canvas">Sorry, your browser does not support canvas.</canvas>
+
+      <div id="start_menu">
+        <h1 id="title">Doodle Jump</h1>
+        <h3 id="author">an imitation by liyihan</h3>
+        <a id="play" href="javascript:init()"></a>
+      </div>
+
+      <div id="over_menu">
+        <h1 id="gameover">Game Over</h1>
+       <!-- <h3 id="final_score">Your Score:0</h3>-->
+       <!-- <a class="button" href="javascript:reset()">Restart</a>-->
+      </div>
+
+      <div id="score_menu">
+        <p id="score">0</p>
+      </div>
+
+      <img id="sprite" src="./image/img.png">
+      <img id="image_left" src="./image/left.png">
+      <img id="image_left2" src="./image/left2.png">
+      <img id="image_right" src="./image/right.png">
+      <img id="image_right2" src="./image/right2.png">
+      <img id="image_normal" src="./image/normal.png">
+      <img id="image_moveable" src="./image/movable.png">
+      <img id="image_breakable" src="./image/breakable.png">
+      <img id="image_null" src="./image/null.png">
+      <img id="image_broken" src="./image/broken.png">
+      <img id="image_spring" src="./image/spring.png">
+      <img id="image_spring2" src="./image/spring2.png">
+    </div>
+
+    <script src="game.js"></script>
+
+  </body>
+</html>
